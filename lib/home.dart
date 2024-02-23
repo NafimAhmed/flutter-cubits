@@ -7,12 +7,9 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_cubit/cubit/counter_cubit.dart';
 import 'package:flutter_cubit/cubit/counter_cubit_state.dart';
 
-class Home extends StatefulWidget{
-  @override
-  State<Home> createState() => _HomeState();
-}
 
-class _HomeState extends State<Home> {
+
+class Home extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     // TODO: implement build
